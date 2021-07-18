@@ -1,6 +1,6 @@
 import React, { useContext, useState, useRef } from 'react';
 import { useQuery, useMutation } from '@apollo/client';
-import { Grid, Image, Card, Button, Icon, Label, Form, Popup } from 'semantic-ui-react';
+import { Grid, Image, Card, Button, Icon, Label, Form } from 'semantic-ui-react';
 import moment from 'moment';
 
 import { FETCH_POST_QUERY, CREATE_COMMENT_MUTATION } from '../util/graphql';
